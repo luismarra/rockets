@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 
-ALLOWED_HOSTS = ['rocketmanage.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['rocketmanage.herokuapp.com', 'localhost', 'https://rocketmanage.herokuapp.com/']
 
 
 # Application definition
